@@ -1,12 +1,12 @@
-# PYRO SessiON GeNeRatoR FoR TeRmUx
+# PYRO SessiON GeNeRatoR FoR TeRmUx ONLY FOR BOT TOKEN
 
 # Codes 
 ```
 
 pkg install python
 pkg install git
-pip install pyrogram==1.3.5
+pip install pyrogram
 pip install TgCrypro
-git clone https://github.com/Javes786/PYRO
-cd PYRO
+git clone https://github.com/CRiMiNaL786/PYROBOT
+cd PYROBOT
 python3 SG.py
