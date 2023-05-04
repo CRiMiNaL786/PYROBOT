@@ -11,8 +11,6 @@ y="\033[1;33m"
 #version changes
 
 import pyrogram
-pyrogram.__version__
-'1.3.5'
 from pyrogram import Client
 from pyrogram import filters
 
@@ -35,7 +33,7 @@ APP_ID = int(input("PLEASE ENTER TELEGRAM APP ID: "))
 API_HASH = input("PLEASE ENTER TELEGRAM API HASH: ")
 with Client(":memory:", api_id=APP_ID, api_hash=API_HASH, in_memory=True) as app:
 print("")
-      A = {app.export_session_string()}
+      A = f({app.export_session_string()})
 print(A)
 print("")
 print("")
