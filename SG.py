@@ -39,7 +39,7 @@ with Client(":memory:", api_id=APP_ID, api_hash=API_HASH, in_memory=True) as app
         print("")
 print("")
 print("")
-print(f"app.export_session_string()")
+print(f"{app.export_session_string()}")
 print("")
 print("")
 print(g+"YOUR DETAILS ARE END TO END ENCRYPTED :)")
