@@ -32,6 +32,7 @@ print(w+"")
 APP_ID = int(input("PLEASE ENTER TELEGRAM APP ID: "))
 API_HASH = input("PLEASE ENTER TELEGRAM API HASH: ")
 with Client(":memory:", api_id=APP_ID, api_hash=API_HASH, in_memory=True) as app:
+try:
 print("")
 print("")
 print(await app.export_session_string())
