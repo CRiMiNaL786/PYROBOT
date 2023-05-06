@@ -36,6 +36,7 @@ with Client(":memory:", api_id=APP_ID, api_hash=API_HASH, in_memory=True) as app
         print("")
         print(g+"YOUR PYROGRAM STRING SESSION")
         print(g+"HOLD AND COPY YOUR SESSION")
+        print(w+"...")
         print("")
         print(f"{app.export_session_string()}")
         print("")
